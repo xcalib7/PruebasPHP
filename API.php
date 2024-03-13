@@ -43,7 +43,7 @@
                 break;
 
             default:
-                echo 'Error malo, malisimo';
+                echo 'Error general';
                 break;
         }
 

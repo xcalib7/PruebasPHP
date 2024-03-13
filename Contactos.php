@@ -43,7 +43,7 @@ function insertarContacto($nombre, $apellido, $dni)
 
 
         if (!validarDNI($dni)) {
-            throw new Exception("Error: El formato del DNI no es válido.");
+            throw new Exception("Error: Formato del DNI no  válido.");
         }
 
 

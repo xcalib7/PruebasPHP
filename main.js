@@ -7,8 +7,8 @@ const listContacts= async()=>{
         const data = await response.json();
         console.log(data);
         
-    } catch (ex) {
-        console.log(ex);
+    } catch (exc) {
+        console.log(exc);
     }
 
 
